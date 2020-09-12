@@ -4,7 +4,7 @@ import shutil
 import fileinput
 import argparse
 
-PARENT_DIR="./Test"
+PARENT_DIR="./"
 
 def replacer(text_to_search, replacement_text):
     for root, dirs, files in os.walk(PARENT_DIR):
